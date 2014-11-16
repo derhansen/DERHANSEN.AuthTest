@@ -1,0 +1,21 @@
+{
+    "name": "derhansen/authtest",
+    "type": "typo3-flow-package",
+	"authors": [
+		{
+			"name": "Torben Hansen",
+			"email": "derhansen@gmail.com",
+			"homepage": "http://www.derhansen.de",
+			"role": "Developer"
+		}
+	],
+	"description": "TYPO3 Flow authentication test with multiple authentication providers",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DERHANSEN\\AuthTest": "Classes"
+        }
+    }
+}
