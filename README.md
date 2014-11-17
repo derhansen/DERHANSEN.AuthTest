@@ -12,7 +12,7 @@ TYPO3:
   Flow:
     security:
       authentication:
-        authenticationStrategy: alltokens
+        authenticationStrategy: allTokens
 ```
 
 **Please note, that this package is only for testing purposes and should not be used in production environments**
