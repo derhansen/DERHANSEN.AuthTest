@@ -1,0 +1,15 @@
+resources:
+  methods:
+    DERHANSEN_AuthTest_LoginController: 'method(DERHANSEN\AuthTest\Controller\LoginController->(login|authenticate)Action())'
+    DERHANSEN_AuthTest_StandardController: 'method(DERHANSEN\AuthTest\Controller\StandardController->indexAction())'
+
+roles:
+  Authenticated: []
+
+acls:
+  Everybody:
+    methods:
+      DERHANSEN_AuthTest_LoginController: GRANT
+  Authenticated:
+    methods:
+      DERHANSEN_AuthTest_StandardController: GRANT
