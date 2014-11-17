@@ -15,7 +15,7 @@ TYPO3:
         authenticationStrategy: alltokens
 ```
 
-**Please note, that this package is only for testing purposes and should not be used in production**
+**Please note, that this package is only for testing purposes and should not be used in production environments**
 
 
 
