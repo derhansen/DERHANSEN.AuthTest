@@ -13,3 +13,11 @@ TYPO3:
             entryPoint: 'WebRedirect'
             entryPointOptions:
               uri: 'derhansen.authtest/login'
+          Test2Provider:
+            provider: 'DERHANSEN\AuthTest\Security\Authentication\Provider\Test2Provider'
+            providerOptions:
+              password: test1234
+              authenticateRoles: ['DERHANSEN.AuthTest:Authenticated']
+            entryPoint: 'WebRedirect'
+            entryPointOptions:
+              uri: 'derhansen.authtest/login'
